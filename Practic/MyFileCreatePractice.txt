@@ -1,0 +1,14 @@
+import java.io.FileInputStream;
+public class DataStreamExaple{
+	public static void main(String args[]){
+		
+		try{
+			FileInputStream object = new FileInputStream("D:\\UserInputFile.txt");
+			int i = object.read();
+			System.out.print(char)i);
+			object.close();
+			}catch(Exception e){
+				System.out.println(e);
+				}
+			}	
+	}
